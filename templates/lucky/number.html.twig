@@ -1,0 +1,9 @@
+{# templates/lucky/number.html.twig #}
+{% extends "base.html.twig" %}
+
+{% block title %}C'est ton petit number kinder{% endblock %}
+
+{% block body %}
+<h1>Your lucky number is {{ number }}</h1>
+<p>If u want see your lucky letter, click <a href="{{ path('app_lucky_letter') }}">here</a></p>
+{% endblock %}
